@@ -13,6 +13,12 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+section:before {
+    height: 69px;
+    content: "";
+    display:block;
+}
+
 .btn-warning { 
     background-image: linear-gradient(90deg,#ffd726 0%,#fcee27 100%)!important;
     border-color: #ffd726;
@@ -85,7 +91,7 @@ nav a img {
 }
 
 #Services .panel { 
-    box-shadow: 0 2px 70px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,.2);
     border-radius: 10px;
 }
 
@@ -141,15 +147,24 @@ iframe {
 }
 
 #video h2 {
-    color: #fcee27;
+    color: #fff458;
     font-weight: 700;
     font-size: 2rem;
 }
 
+/* Portfolio */
+#Portfolio h1 {
+    font-weight: 700;
+}
+
+#Portfolio .carousel-caption { 
+    background-color: rgb(0, 0, 0);
+}
 
 /* Let's Talk */
+
 #LetsTalk form {
-    box-shadow: 0 2px 70px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,.2);
     border-radius: 10px;
     padding: 2rem;
 }   
