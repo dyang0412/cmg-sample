@@ -75,11 +75,19 @@ nav a img {
 
 #HomeSection h1{ 
     font-size: 4rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 #HomeSection p {
     font-size: 20px
+}
+
+#HomeSection h4 { 
+    letter-spacing: 10px; 
+    font-style: italic; 
+    font-weight: 200;
+    color: #fcee27;
+    margin: 0;
 }
 
 #HomeSection hr {
