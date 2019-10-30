@@ -69,8 +69,13 @@ nav a img {
     border-bottom: 2px solid rgb(0, 0, 0);
 }
 
+#HomeSection:before {
+    height: 0;
+}
+
 #HomeSection h1{ 
     font-size: 4rem;
+    padding-top: 5rem;
 }
 
 #HomeSection p {
@@ -138,6 +143,7 @@ nav a img {
 #MissionStatement .portrait-container:hover ion-icon{ 
     opacity: 1;
 }
+
 
 #dom-info { 
     position: fixed;
@@ -295,6 +301,11 @@ iframe {
 }
 
 #GetStarted:before {
+    height: 0;
+}
+
+/* Clients */
+#Clients:before { 
     height: 0;
 }
 
