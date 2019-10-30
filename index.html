@@ -8,13 +8,15 @@
     <title>Digital Marking Agency in NJ - Colossus Media Group</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <link href="node_modules\hover.css\css\hover-min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
 <body>
     <nav class="navbar navbar-light navbar-expand-md fixed-top p-0" data-activeslide="1">
@@ -27,26 +29,32 @@
             </button>
             <div id="navbarContent" class="navbar-collapse collapse in justify-content-end">
                 <ul class="navbar-nav row text-center">
-                    <li data-slide="1" class="nav-item col-md-3">
+                    <li data-slide="1" class="nav-item mx-2">
                         <a class="nav-link hvr-underline-from-center" id="menu-link-1" href="#header" title="Home">
                            <span class="oi oi-home" title="home" aria-hidden="true"></span>
                            <span class="text">HOME</span>
                         </a>
                     </li>
-                    <li data-slide="2" class="nav-item col-md-3">
-                        <a class="nav-link hvr-underline-from-center" id="menu-link-2" href="#Services" title="About">
+                    <li data-slide="2" class="nav-item mx-2">
+                        <a class="nav-link hvr-underline-from-center" id="menu-link-2" href="#Services" title="Services">
                             <span class="oi oi-person" title="home" aria-hidden="true"></span>
                             <span class="text">SERVICES</span>
                         </a>
                     </li>
-                    <li data-slide="3" class="nav-item col-md-3">
+                    <li data-slide="3" class="nav-item mx-2">
+                        <a class="nav-link hvr-underline-from-center" id="menu-link-3" href="#MissionStatement" title="About">
+                            <span class="oi oi-book" title="home" aria-hidden="true"></span>
+                            <span class="text">ABOUT</span>
+                        </a>
+                    </li>
+                    <li data-slide="3" class="nav-item mx-2">
                         <a class="nav-link hvr-underline-from-center" id="menu-link-3" href="#Portfolio" title="Portfolio">
                             <span class="oi oi-book" title="home" aria-hidden="true"></span>
                             <span class="text">PORTFOLIO</span>
                         </a>
                     </li>
-                    <li data-slide="4" class="nav-item col-md-3">
-                        <a class="nav-link hvr-underline-from-center" id="menu-link-4" href="#ContactSection" title="Contact">
+                    <li data-slide="4" class="nav-item mx-2">
+                        <a class="nav-link hvr-underline-from-center" id="menu-link-4" href="#LetsTalk" title="Contact">
                             <span class="oi oi-envelope-closed" title="home" aria-hidden="true"></span>
                             <span class="text">CONTACT</span>
                         </a>
@@ -62,7 +70,7 @@
                 <div class="container masthead-content">
                     <div class="row pb-5">
                         <div class="col-lg-8">
-                            <h1 style="font-style: italic;" class="pb-3">Delivering Big Results For Your Business</h1>
+                            <h1 id="headertext" style="font-style: italic;" class="animated fadeInLeft pb-3">Delivering Big Results For Your Business</h1>
                             <hr>
                             <p class="pb-3">Building a new website or App is only half the battle. Colossus Media Group offers an array of services that will help get your small business to the next level.</p>
                             <div class="row pt-3">
@@ -77,58 +85,150 @@
         </section>
     </div>
         
-    <section id="Services" class="pb-5 pt-5">
+    <section id="Services" class="pb-5 pt-1">
         <div class="container text-center">
             <h5>OUR SERVICES</h5>
             <h1>We Make Businesses Big</h1>
             <p style="font-style: italic;">Colossus Media Group is the premier digital marketing agency in NJ, offering an array of digital marketing services.</p>
         </div>
-        
-        <div class="row container m-auto text-center pt-5">
+
+        <div class="row scroll-animations container m-auto text-center pt-5">
             <div class="col-lg-3">
-                <div class="col-12 panel p-4">
+                <div class="col-12 panel p-4 animated">
                     <ion-icon name="laptop"></ion-icon>
                     <h5>Web Design</h5>
                     <p>Custom-made designs for your brand with mobile optimization.</p>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="col-12 panel p-4">
+                <div class="col-12 panel p-4 animated">
                     <ion-icon name="code-working"></ion-icon>
                     <h5>Development</h5>
-                    <p>Professional, hand-coded websites for any requests</p>
+                    <p>Ground up, hand-coded websites for any customization requests.</p>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="col-12 panel p-4">
+                <div class="col-12 panel p-4 animated">
                     <ion-icon name="photos"></ion-icon>
                     <h5>Content Creation</h5>
                     <p>Custom media and content to help keep people interested in your brand.</p>
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="col-12 panel p-4">
+                <div class="col-12 panel p-4 animated">
                     <ion-icon name="stats"></ion-icon>
                     <h5>SEO</h5>
                     <p>Pages that are search engine optimized for more organic traffic to your site.</p>
                 </div>
             </div>
         </div>
+        
         <div class="container text-center pt-5">
-            <h5>And more...!</h5>
-            <button class="btn btn-warning p-2 w-25 mt-3">View All Services</button>
+            <h5 style="font-style: italic;">And more...!</h5>
+            <button class="btn btn-dark p-2 w-25 mt-3" data-toggle="modal" data-target="#exampleModalCenter">Request a Quote</button>
+            <a href="https://cmg-agency.com/services/"><button class="btn btn-warning p-2 w-25 mt-3">View All Services</button></a>
         </div>
+        <div class="container pt-5">
+            <hr>
+        </div>
+
     </section>
-    <div class="container">
-        <hr>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Request a Quote!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="First">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Last">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="tel" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control"placeholder="Service Type">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control rounded-1" id="exampleFormControlTextarea2" placeholder="Job Details" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+
     <section id="MissionStatement" class="pb-5">
-        <div class="container text-center m-auto">
-            <div class="col-12">
-                <img class="pb-3" src="resources/cmg-logo.png" alt="">
-                <h1 class="pb-3">Our Mission Statement</h1>
-                <p>Colossus Media Group believes that every business should have access to high quality marketing. Additionally, excellent customer service should be standard. Our focus is to produce great work at an extremely competitive price. Also, we set ourselves apart from competitors by forming a strong relationship with our clients. Quite simply, we place our client’s needs first. Unfortunately, a common approach of many marketing/branding agencies is to make the sale, build the site, and move on. Here, we strive to continue our relationship with the client by offering expert services. We achieve this by focusing on building and growing relationship with clients. We invest time upfront to understand our clients and their businesses. Then, we can provide the best solutions for their needs. Colossus Media Group is more than just another digital marketing agency in NJ. We help businesses achieve stature.</p>
-                <button class="btn btn-warning p-2 w-25">Learn More</button>
+        <div class="container text-left m-auto">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="pb-3" src="resources/cmg-logo.png" alt="">
+                    <h1 class="pb-3">Our Mission Statement</h1>
+                    <p>Colossus Media Group believes that every business should have access to high quality marketing. Additionally, excellent customer service should be standard. Our focus is to produce great work at an extremely competitive price. Also, we set ourselves apart from competitors by forming a strong relationship with our clients. Quite simply, we place our client’s needs first. Unfortunately, a common approach of many marketing/branding agencies is to make the sale, build the site, and move on. Here, we strive to continue our relationship with the client by offering expert services. We achieve this by focusing on building and growing relationship with clients. We invest time upfront to understand our clients and their businesses. Then, we can provide the best solutions for their needs. Colossus Media Group is more than just another digital marketing agency in NJ. We help businesses achieve stature.</p>
+                    <a href="https://cmg-agency.com/about/"><button class="btn btn-warning p-2 w-25">Learn More</button></a>
+                </div>
+                <div class="col-lg-3 text-center pt-5">
+                    <div id="dom" class="container portrait-container">
+                        <img class="portrait" src="resources/dom.png" alt="">
+                        <ion-icon name="search"></ion-icon>
+                    </div>
+                    <p>Co-founder/CEO</p>
+                    <h5>Dom Santamaria</h5>
+                </div>
+                <div class="col-lg-3 text-center pt-5">
+                    <div id="rocco" class="container portrait-container">
+                        <img class="portrait" src="resources/rocco.png" alt="">
+                        <ion-icon name="search"></ion-icon>
+                    </div>
+                    <p>Co-founder/COO</p>
+                    <h5>Rocco Santamaria</h5>
+                </div>
+            </div>
+        </div>
+        <div id="dom-info" class="text-center active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 container pt-5">
+                        <button class="btn btn-sidebar-dom">
+                            <ion-icon name="close"></ion-icon>
+                        </button>
+                        <img class="portrait" src="resources/dom.png" alt="">
+                        <h5>Meet</h5>
+                        <h3>Dom Santamaria</h3>
+                        <p class="pt-3">Dom Santamaria is one of the co-founders and CEO of Colossus Media Group. He loves working with young companies, and staying on the cutting edge. Besides Colossus, he loves automobiles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rocco-info" class="text-center active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 container pt-5">
+                        <button class="btn btn-sidebar-rocco">
+                            <ion-icon name="close"></ion-icon>
+                        </button>
+                        <img class="portrait" src="resources/rocco.png" alt="">
+                        <h5>Meet</h5>
+                        <h3>Rocco Santamaria</h3>
+                        <p class="pt-3">Rocco Santamaria is one of the co-founders of Colossus Media Group, and the COO. His passion for videography began when he was 8 years old, and he's been shooting videos since then. He's dedicated to reviewing all the work that we produce to ensure quality. You'll always find him in Italian dress shoes.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -140,10 +240,10 @@
         </div>
         <div class="container">
             <div id="video" class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-9">
                     <iframe title="vimeo-player" src="https://player.vimeo.com/video/334434096" width="640" height="360" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <h2 class="pb-3">Check Out Our Latest Video Production!</h2>
                     <h5>Check out this promotional video we developed for this year’s Rock the River! Rock the River is sponsored by Bubby’s Beanery, and Little by Little, which is a nonprofit dedicated to supporting children with brain cancer.</h5>
                 </div>
@@ -158,9 +258,8 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="resources/boyscouts.jpg" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Boyscouts of America</h5>
-                            <a href="https://joinbsa.com/"><button class="btn btn-warning w-50">View Project</button></a>
+                        <div class="d-none d-md-block">
+                            <a href="https://joinbsa.com/"><button class="btn btn-warning w-100">View Project</button></a>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -185,10 +284,53 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <button class="btn btn-lg btn-warning mt-5">View All Projects</button>
+            <a href="https://cmg-agency.com/portfolio/"><button class="btn btn-lg btn-warning mt-5">View All Projects</button></a>
         </div>
     </section>
 
+    <section id="GetStarted" class="py-5">
+        <div class="container">
+            <h3 style="display: inline;">Digital Marketing Packages</h3><ion-icon style="display: inline-block;" class="pl-3" name="cube"></ion-icon>
+            <div class="row pt-3">
+                <div class="col-lg-8">
+                    <h5>We also offer attractive digital marketing packages to help achieve your business marketing goals. They are developed to be cost effective, efficient, and deliver results. </h5>
+                </div>
+                <div class="col-lg-4">
+                    <button class="btn btn-lg btn-warning w-75">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Clients">
+        <div class="container text-center">
+            <h1>Clients</h1>
+            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item row no-gutters active">
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/beauty-foundation.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/boyds.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/cortez.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/curitivity.jpg"></div>
+                    </div>
+                    <div class="carousel-item row no-gutters">
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/garden-state.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/garmany.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/iam-training.jpg"></div>
+                        <div class="col-3 float-left"><img class="img-fluid" src="resources/clients/m.jpg"></div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
     
     <section id="LetsTalk" class="pt-5 pb-5">
         <div class="container row m-auto">
@@ -217,7 +359,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" placeholder="Message" rows="3"></textarea>
+                        <textarea class="form-control rounded-1" id="exampleFormControlTextarea2" placeholder="Message" rows="4"></textarea>
                     </div>
                     <button type="submit" class="btn btn-warning">Submit</button>
                 </form>
@@ -225,5 +367,58 @@
         </div>
     </section>
 
+    <script>
+        $(document).ready(function() {
+        // Check if element is scrolled into view
+            function isScrolledIntoView(elem) {
+                var docViewTop = $(window).scrollTop();
+                var docViewBottom = docViewTop + $(window).height();
+
+                var elemTop = $(elem).offset().top;
+                var elemBottom = elemTop + $(elem).height();
+
+                return elemBottom <= docViewBottom && elemTop >= docViewTop;
+            }
+            // If element is scrolled into view, fade it in
+            $(window).scroll(function() {
+                $(".scroll-animations .animated").each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass("fadeInLeft");
+                    $(this).css("visibility","visible");
+                }
+                });
+            });
+        });
+
+        $('#dom').click(function () {
+            collapseDom();
+        })
+
+        $('#rocco').click(function () {
+            collapseRocco();
+        })
+
+        $('.btn-sidebar-dom').click(function () {
+            collapseDom();
+        })
+
+        $('.btn-sidebar-rocco').click(function () {
+            collapseRocco();
+        })
+
+        function collapseDom(){
+            $('#dom-info').toggleClass('active');
+            if(!$('#rocco-info').hasClass('active')){
+                $('#rocco-info').toggleClass('active');
+            }
+        }
+
+        function collapseRocco(){
+            $('#rocco-info').toggleClass('active');
+            if(!$('#dom-info').hasClass('active')){
+                $('#dom-info').toggleClass('active');
+            }
+        }
+    </script>
 </body>
 </html>
