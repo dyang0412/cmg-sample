@@ -534,4 +534,8 @@ footer {
         height: auto !important;
         width: 75% !important;
     }
+
+    #mission-btn {
+        width: 50% !important;
+    }
 }
