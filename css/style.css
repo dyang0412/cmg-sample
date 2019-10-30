@@ -60,6 +60,11 @@ nav a img {
     color: rgb(0, 0, 0);
 }
 
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    margin-right: 1rem;
+}
+
 /* Home Section */
 #HomeSection { 
     /*background: rgb(255,249,115);
