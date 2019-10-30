@@ -430,6 +430,16 @@ footer {
     .panel {
         min-height: 364px;
     }
+
+    #dom-info img {
+        height: auto !important;
+        width: 75% !important;
+    }
+
+    #rocco-info img {
+        height: auto !important;
+        width: 75% !important;
+    }
 }
 
 @media (max-width: 992px) {
@@ -515,5 +525,13 @@ footer {
         margin-top: 1rem;
     }
 
+    #dom-info img {
+        height: auto !important;
+        width: 75% !important;
+    }
 
+    #rocco-info img {
+        height: auto !important;
+        width: 75% !important;
+    }
 }
