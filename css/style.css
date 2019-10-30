@@ -419,3 +419,101 @@ footer {
     background-color: rgb(22, 22, 22);
     color: #fff;
 }
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    #headertext{
+        font-size: 3.5rem !important;
+    }
+
+    .panel {
+        min-height: 364px;
+    }
+}
+
+@media (max-width: 992px) {
+    .panel {
+        margin-top: 1rem !important;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    #headertext{
+        font-size: 3.5rem !important;
+    }
+
+    .panel {
+        margin-top: 1rem !important;
+    }
+
+    #LetsTalk {
+        padding-top: 0 !important;
+    }
+
+    #LetsTalk form {
+        margin-top: 1rem;
+    }
+
+    #certs {
+        padding-top: 0 !important;
+    }
+
+    #certs img{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #header {
+        padding-top: calc(2rem + 70px);
+    }
+
+    #headertext{
+        font-size: 3rem !important;
+    }
+
+    #HomeSection h5{
+        font-size: 1rem !important;
+    }
+
+    .panel {
+        margin-top: 1rem !important;
+    }
+
+    #services-btn button{
+        width: 50% !important;
+    }
+
+    #features {
+        text-align: center !important;
+    }
+
+    #features .col-md-2 {
+        padding-left: 0;
+    }
+
+    #GetStarted button {
+        margin-top: 1rem;
+    }
+
+    #LetsTalk {
+        padding-top: 0 !important;
+    }
+
+    #LetsTalk form {
+        margin-top: 1rem;
+    }
+
+    #certs {
+        padding-top: 0 !important;
+    }
+
+    #certs img{
+        margin-top: 1rem;
+    }
+
+
+}
