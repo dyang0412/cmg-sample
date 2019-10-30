@@ -532,6 +532,11 @@
             });
         });
 
+        $('.nav-link').click(function () {
+            if(screen.width <= 576)
+                $('.navbar-toggler').click();
+        })
+
         $('#dom').click(function () {
             collapseDom();
         })
