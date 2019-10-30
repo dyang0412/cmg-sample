@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Do you want to work with the premier digital marketing agency in NJ? Colossus Media Group is knkown for its app development, video production, and more.">
     <meta name="author" content="Daniel Yang">
-    <title>Digital Marking Agency in NJ - Colossus Media Group</title>
+    <title>Digital Marketing Agency in NJ - Colossus Media Group</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="node_modules\hover.css\css\hover-min.css" rel="stylesheet" media="all">
@@ -77,6 +77,9 @@
                             <p class="pb-3 pt-3">Building a new website or App is only half the battle. Colossus Media Group offers an array of services that will help get your small business to the next level.</p>
                             <div class="row pt-3">
                                 <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <button class="btn btn-outline-light w-100 p-2">Get Started</button>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
                                     <a href="#Services"><button id="learnmore" class="btn btn-warning p-2 w-100">Learn More</button></a>
                                 </div>
                             </div>
@@ -94,33 +97,75 @@
             <p style="font-style: italic;">Colossus Media Group is the premier digital marketing agency in NJ, offering an array of digital marketing services.</p>
         </div>
 
-        <div class="row scroll-animations container m-auto text-center pt-5">
+        <div class="row scroll-animations container m-auto text-center pt-5 pb-3">
             <div class="col-lg-3 hvr-float">
                 <div class="col-12 panel p-4 animated">
-                    <ion-icon name="laptop"></ion-icon>
+                    <ion-icon class="panel-icon" name="laptop"></ion-icon>
                     <h5>Web Design</h5>
                     <p>Custom-made designs for your brand with mobile optimization.</p>
+                    <a href="" class="hvr-icon-forward">Learn more <ion-icon class="hvr-icon" name="arrow-forward"></ion-icon></a>
                 </div>
             </div>
             <div class="col-lg-3 hvr-float">
                 <div class="col-12 panel p-4 animated">
-                    <ion-icon name="code-working"></ion-icon>
+                    <ion-icon class="panel-icon" name="code-working"></ion-icon>
                     <h5>Development</h5>
                     <p>Ground up, hand-coded websites for any customization requests.</p>
+                    <a href="" class="hvr-icon-forward">Learn more <ion-icon class="hvr-icon" name="arrow-forward"></ion-icon></a>
                 </div>
             </div>
             <div class="col-lg-3 hvr-float">
                 <div class="col-12 panel p-4 animated">
-                    <ion-icon name="photos"></ion-icon>
+                    <ion-icon class="panel-icon" name="photos"></ion-icon>
                     <h5>Content Creation</h5>
                     <p>Custom media and content to help keep people interested in your brand.</p>
+                    <a href="" class="hvr-icon-forward">Learn more <ion-icon class="hvr-icon" name="arrow-forward"></ion-icon></a>
                 </div>
             </div>
             <div class="col-lg-3 hvr-float">
                 <div class="col-12 panel p-4 animated">
-                    <ion-icon name="stats"></ion-icon>
+                    <ion-icon class="panel-icon" name="stats"></ion-icon>
                     <h5>SEO</h5>
                     <p>Pages that are search engine optimized for more organic traffic to your site.</p>
+                    <a href="" class="hvr-icon-forward">Learn more <ion-icon class="hvr-icon" name="arrow-forward"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="features" class="container pt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-2 pr-0">
+                            <ion-icon name="brush"></ion-icon>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <h5>Clean and Modern Design</h5>
+                            <p>Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-2 pr-0">
+                            <ion-icon name="Phone-Portrait"></ion-icon>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <h5>Responsive Layout</h5>
+                            <p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-2 pr-0">
+                            <ion-icon name="speedometer"></ion-icon>
+                        </div>
+                        <div class="col-10 pl-0">
+                            <h5>Lightweight Performance</h5>
+                            <p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -305,9 +350,7 @@
         </div>
     </section>
 
-  
-
-    <section id="Clients">
+    <section id="Clients" class="pb-5">
         <div class="container text-center">
             <h1>Clients</h1>
             <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
@@ -337,8 +380,38 @@
         </div>
     </section>
     
+    <section id="Reviews" class="py-5">
+        <div class="container">
+            <div id="recipeCarousel3" class="carousel slide w-100 text-center" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#recipeCarousel3" data-slide-to="0" class="active"></li>
+                    <li data-target="#recipeCarousel3" data-slide-to="1"></li>
+                    <li data-target="#recipeCarousel3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item no-gutters pb-5 active">
+                        <p>I’ve worked with 3 different media groups in the past 3 years and Colossus is different. Their attention to detail and willingness to work with what the customer wants without ego or defensiveness made the entire process smooth. Will be doing business again in the future.</p>
+                        <h5>Frank Benedetto</h5>
+                        <p>Owner, Counter Strike</p>
+                    </div>
+                    <div class="carousel-item no-gutters pb-5">
+                        <p>Dom and staff are top notch! Say what they will do and actually do it! I would not hesitate to work with them again and recommend them to anyone.</p>
+                        <h5>Jeff Morris</h5>
+                        <p>Owner & Founder, Triad Sourcing</p>
+                    </div>
+                    <div class="carousel-item no-gutters pb-5">
+                        <p>Dom was extremely helpful and attentive. I was happy with all the designs they gave me to review. They were extremely fast with getting back to me with my logos. I was the most impressed. They have the best of the best technology and he is above and beyond talented in his field of work. I would recommend them to anyone looking for logo designs, videos, and websites! They do amazing work!</p>
+                        <h5>Kaylene Geiger</h5>
+                        <p>Owner, The Bronze Bar</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
     <section id="LetsTalk" class="pt-5 pb-5">
-        <div class="container row m-auto">
+        <div class="container row m-auto pb-5">
             <div class="col-lg-4">
                 <div class="col-12">
                     <h1>Let's Talk</h1>
@@ -370,7 +443,71 @@
                 </form>
             </div>
         </div>
+        <div id="certs" class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="resources/certificates/adwords-1.jpg" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="resources/certificates/analytics-1.jpg" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="resources/certificates/partner.jpg" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="resources/certificates/facebook-partner.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section id="Footer">
+        <div class="container pb-5">
+            <div class="text-center pb-4" style="color: #fff458;">
+                <h5>EMPOWER YOUR BUSINESS</h5>
+                <h2>Let's Build Something Together</h2>
+                <a href="https://cmg-agency.com/contact/"><button class="btn btn-warning mt-3">Contact Us Today</button></a>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-6">
+                    <h4 class="pb-4">Recent Posts</h4>
+                    <a href="https://cmg-agency.com/5-ways-to-build-employee-trust/"><h5>5 Ways to Build Employee Trust</h5></a>
+                    <p class="pb-3">Posted by Dom Santamaria | Oct 25, 2019 | Tips</p>
+                    <a href="https://cmg-agency.com/6-tips-for-effective-landing-pages/"><h5>6 Tips for Effective Landing Pages</h5></a>
+                    <p class="pb-3">Posted by Dom Santamaria | Oct 18, 2019 | Tips</p>
+                    <a href="https://cmg-agency.com/the-importance-of-video-marketing/"><h5>The Importance of Video Marketing</h5></a>
+                    <p class="pb-3">Posted by Dom Santamaria | Oct 16, 2019 | Tips</p>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="pb-4">About Colossus Media Group</h4>
+                    <p>At Colossus Media Group, we believe in bringing big results to your business. All of our services are designed to take your business to the next level.</p>
+                    <h4 class="contact-info">Address: </h4>
+                    <p>1000 Sanger Ave, Suite #105 Oceanport NJ, 07757</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <h4 class="contact-info">Email: </h4>
+                            <p>info@colossusmediagroup.com</p>
+                        </div>
+                        <div class="col-6">
+                            <h4 class="contact-info">Phone: </h4>
+                            <p>908.242.3056</p>
+                        </div>
+                    </div>
+                    <div id="social-media">
+                        <a href="https://vimeo.com/user45164356"><ion-icon class="mr-3 hvr-grow" style="background-color: #1ab7ea" name="logo-vimeo"></ion-icon></a>
+                        <a href="https://www.facebook.com/colossusmediagroup/"><ion-icon class="mr-3 hvr-grow" style="background-color: #3b5998" name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com/colossusmediagroup/?hl=en"><ion-icon class="mr-3 hvr-grow" style="background-color: #E1306C" name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.youtube.com/channel/UCMAsAMMkhOE5Jyq24XYdOzQ"><ion-icon class="hvr-grow" style="background-color: #FF0000" name="logo-youtube"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-3 text-center">
+        <div class="container">
+            <p class="m-0">Copyright © 2018 Colossus Media Group | All Rights Reserved</p>
+        </div>
+    </footer>
 
     <script>
         $(document).ready(function() {
