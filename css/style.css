@@ -180,7 +180,7 @@ nav a img {
     padding-top: 0;
     width:300px;
     background-color: rgb(255, 244, 83);
-    overflow: hidden;
+    overflow: auto;
     overflow-x: hidden;
     margin-top: 40px;
     height: calc(100% - 40px);
